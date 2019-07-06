@@ -1,0 +1,503 @@
+body.dimmed.dimmable {
+    overflow: hidden;
+}
+
+.projects-view {
+    margin-top: 25px
+}
+
+.format-form textarea {
+    height: 150px !important
+}
+
+.format-decode-button {
+    margin-top: 1em
+}
+
+.ui.menu:not(.vertical) .item {
+    display: -webkit-box
+}
+
+.ui.menu .ui.dropdown .characters-per-line-row {
+    padding-bottom: .2em
+}
+
+.ui.menu .ui.dropdown .characters-per-line-row .button {
+    min-width: 11em
+}
+
+.ui.menu .ui.dropdown .menu .item.characters-per-line .format-menu-input {
+    width: 96% !important
+}
+
+.ui.menu .ui.dropdown .menu .item.characters-per-line:not(.button):hover {
+    background: initial !important;
+    cursor: default
+}
+
+.ui.menu .ui.dropdown .menu .item .icon.characters-per-line-button:not(.dropdown) {
+    display: inline-block;
+    font-size: 1em !important;
+    float: none;
+    margin: 0 0 0 -2.4em
+}
+
+.settings-format-menu {
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0
+}
+
+.settings-format-menu .background-color {
+    margin-top: .4em
+}
+
+.settings-format-menu .line-gradients-format {
+    padding-top: .7em;
+    width: 7em
+}
+
+.settings-format-menu .close-menu-format {
+    min-width: 3em;
+    position: absolute !important;
+    right: 0 !important;
+    height: 100% !important
+}
+
+.settings-format-menu .close-menu-format:hover {
+    background-color: initial !important;
+    cursor: default !important
+}
+
+.settings-format-menu .close-menu-format i:hover {
+    cursor: pointer;
+    color: #2185d0 !important;
+    background-color: initial !important
+}
+
+.format-settings-icons div {
+    position: absolute;
+    color: #7f7f7f !important;
+    top: 1em
+}
+
+.format-settings-button:hover,
+.format-settings-icons .format-maximize-button:hover,
+.format-settings-icons .format-settings-button:hover {
+    color: #fff !important;
+    cursor: pointer
+}
+
+.format-maximize-button:hover,
+.format-settings-button:hover {
+    opacity: .5 !important
+}
+
+.format-settings-icons .format-settings-button {
+    z-index: 10000;
+    right: 1.5em
+}
+
+.format-settings-icons .format-maximize-button {
+    z-index: 10000;
+    left: 1.5em
+}
+
+.format-settings-icons i.circular.icon {
+    box-shadow: none !important;
+    background: rgba(255, 255, 255, .05) !important;
+    font-size: 2.75em !important
+}
+
+.format-settings-icons i.circular.icon:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 .1em rgba(0, 0, 0, .1) inset !important;
+    -moz-box-shadow: 0 0 0 .1em rgba(0, 0, 0, .1) inset !important;
+    -webkit-box-shadow: 0 0 0 .1em rgba(0, 0, 0, .1) inset !important;
+    -o-box-shadow: 0 0 0 .1em rgba(0, 0, 0, .1) inset !important;
+    color: #fff !important
+}
+
+.center {
+    background-color: none !important
+}
+
+.center .formatted-text-dim {
+    text-align: left !important;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.center .formatted-text-dim.font-garamond {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif !important
+}
+
+.center .formatted-text-dim.font-lato {
+    font-family: Lato, sans-serif !important
+}
+
+.center .formatted-text-dim.font-didot {
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif !important
+}
+
+.center .formatted-text-dim.font-times-new-roman {
+    font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif !important
+}
+
+.center .formatted-text-dim.font-montserrat {
+    font-family: Montserrat, sans-serif !important
+}
+
+.center .formatted-text-dim.font-palatino {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important
+}
+
+.center .formatted-text-dim.font-titillium-web {
+    font-family: 'Titillium Web', sans-serif !important
+}
+
+.center .formatted-text-dim.font-vt323 {
+    font-family: VT323, monospace !important
+}
+
+.center .formatted-text {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    background: rgba(224, 255, 255, .15) !important;
+    text-align: left !important;
+    border-radius: .3em;
+    padding: 1.5em 2em !important;
+    width: fit-content
+}
+
+.center .formatted-text .format-paragraphs-direct-copy {
+    max-height: 90vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: #313943;
+    overflow-y: auto;
+    -ms-overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    word-wrap: break-word;
+    text-align: justify !important;
+    padding: 3em 3em 2em;
+    border: .02em solid rgba(34, 36, 38, .3);
+    box-shadow: none !important;
+    background: rgba(224, 255, 255, .75);
+    border-radius: .1em;
+    -webkit-border-radius: .1em;
+    -moz-border-radius: .1em
+}
+
+.center .formatted-text .format-paragraphs-direct-copy::-webkit-scrollbar-track-piece {
+display: none !important;
+visibility: hidden !important;
+
+}
+.center .formatted-text .format-paragraphs-direct-copy::-webkit-scrollbar {
+    width: 12px !important;
+}
+.center .formatted-text .format-paragraphs-direct-copy::-webkit-scrollbar-track {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px inset;
+    border-radius: 2px;
+}
+
+.center .formatted-text .format-paragraphs-direct-copy::-webkit-scrollbar-thumb {
+    box-shadow: rgba(255, 255,255, 0.6) 0px 0px 2px inset;
+    -webkit-box-shadow: rgba(255, 255,255, 0.6) 0px 0px 2px inset;
+    background: rgba(0,0,0, .075);
+    border-radius: 2px;
+}
+
+.ui.menu.fixedMenu,
+.ui.menu.fixedMenu .item:first-child,
+.ui.menu.fixedMenu .item:last-child {
+    border-radius: 0 !important
+}
+
+.center .formatted-text .format-paragraphs-direct-copy .format-line {
+    display: block !important;
+    line-height: inherit
+}
+
+.ui.fixedMenu.menu,
+.ui[class*="top fixedMenu"].menu {
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto
+}
+
+.ui.menu.fixedMenu {
+    position: fixed;
+    z-index: 101;
+    margin: 0;
+    width: 100%
+}
+
+.lightning-text-displayer-enabled {
+    margin-top: -1em;
+    margin-bottom: -1.5em
+}
+
+.lightning-text-card {
+    background: rgba(0, 0, 0, 0) !important
+}
+
+.lightning-text-card .content {
+    background: rgba(0, 0, 0, .035) !important;
+    border-radius: .38571429rem !important;
+    padding-top: 2em;
+    padding-bottom: 2em !important
+}
+
+.lightning-card-text {
+    color: rgba(255, 255, 255, .55);
+    box-shadow: none
+}
+
+.settings-format-menu .fixedMenu .item.dropdown {
+    display: inline-block
+}
+
+.lightning-speed-controls .ui.icon.left.labeled.button:hover {
+    background-color: #4b4873 !important;
+    cursor: pointer !important;
+    z-index: 9999;
+    color: #fafba5 !important
+}
+
+.lightning-speed-controls .ui.icon.left.labeled.button>.play.icon {
+    color: #2e2e2e !important;
+    font-size: 1.3em !important;
+    width: 3.271429em !important
+}
+
+.lightning-speed-controls .ui.icon.left.labeled.button:hover>.play.icon {
+    background-color: rgba(0, 0, 0, .13) !important
+}
+
+.close-lightning-display {
+    opacity: .2
+}
+
+.close-lightning-display:hover {
+    opacity: .45
+}
+
+.lightning-text-displayer-enabled .close-lightning-display i {
+    font-size: small;
+    font-weight: 100 !important;
+    color: rgba(255, 255, 255, .14) !important
+}
+
+.lightning-text-displayer-enabled .close-lightning-display:hover>i:hover {
+    color: #d6d6d6 !important;
+    cursor: pointer !important
+}
+
+.lightning-text-displayer-enabled .lightning-card .content {
+    padding-bottom: 0 !important
+}
+
+.footer-avatar-logo-img:hover {
+    background: #393750 !important;
+    filter: none !important
+}
+
+.format-lightning-button-font-add {
+    margin-bottom: 0 !important
+}
+
+.format-lightning-button-font-subtract {
+    margin-top: -1em !important
+}
+
+.lightning-text .lightning-text-pause-button {
+    box-shadow: 0 0 0 1px rgba(14, 14, 14, .15) inset !important;
+    -webkit-box-shadow: 0 0 0 1px rgba(14, 14, 14, .15) inset !important;
+    left: 5em;
+    opacity: .35;
+    position: absolute;
+    width: fit-content;
+    color: #000;
+    background: rgba(255, 255, 255, .8) !important;
+    padding: .85em !important;
+    top: 0 !important
+}
+
+.lightning-text .lightning-text-pause-button:hover {
+    opacity: .4 !important
+}
+
+.projects-view {
+    margin-top: 25px;
+    padding: 1em
+}
+
+.format-form textarea {
+    height: 150px !important
+}
+
+.format-decode-button {
+    margin-top: 1em
+}
+
+.previousTextItem {
+    color: rgba(0, 0, 0, .6) !important
+}
+
+.previousTextItem:hover {
+    cursor: pointer;
+    border-bottom: 1px dashed #bdbdbd !important;
+    background: #d3d3d31a !important;
+    color: rgba(0, 0, 0, .8) !important
+}
+
+.ui.container.projects-view.default-screen {
+    min-width: 25em
+}
+
+.ui.container.projects-view.full-screen {
+    min-width: 50em
+}
+
+.ui.container.projects-view.default-screen textarea {
+    height: 150px !important
+}
+
+.ui.container.projects-view.full-screen textarea {
+    height: 300px !important
+}
+
+.format-form-expand-popup-container a {
+    color: #3b71a7
+}
+
+.format-form-expand-popup-container a:hover {
+    cursor: pointer;
+    color: #2c5680
+}
+
+.format-form-expand-popup-container {
+    text-align: right !important
+}
+
+.lightning-reader-popup-view-recent-button:hover {
+    cursor: pointer;
+    background: #f0f8ff
+}
+
+.popup-lightning-window-header-text {
+    background: #f0f8ff;
+    padding: 1em;
+    border: .1px dotted #d3d3d3;
+    font-size: 1.1em;
+    margin-top: -1.125em;
+    margin-bottom: 1em
+}
+
+.popup-lightning-text {
+    color: rgba(0, 0, 0, .57) !important;
+    font-weight: 600 !important;
+    padding: 0 1em 1em .5em;
+    margin-bottom: -1em
+}
+
+.select-to-view-previous {
+    color: #0000004f !important;
+    font-style: italic !important;
+    margin-top: -1em !important;
+    font-size: .9em;
+    margin-bottom: .25em !important;
+    padding: 1.25em 0 0 !important
+}
+
+.type-paste-to-view-lightning {
+    color: #0000004f !important;
+    font-style: italic !important;
+    font-size: .95em !important;
+    padding: .5em 0 1em !important
+}
+
+.lightning-format-window-button {
+    background-color: #77828a !important
+}
+
+.lightning-format-window-button:hover {
+    background-color: #60686d !important;
+    cursor: pointer
+}
+
+.circular-icon-hv:hover {
+    color: #fff !important
+}
+
+.lightning-display-popup-custom {
+    position: absolute !important;
+    z-index: 9999 !important;
+    left: 0 !important;
+    background: rgba(39, 37, 37, .67);
+    top: 31em !important;
+    color: #fff;
+    padding: 1em !important;
+    border: 1px dotted #d3d3d3 !important
+}
+
+.lightning-popup-remove-previous {
+    position: absolute;
+    right: 1.5em;
+    border: 1px dotted #d3d3d3;
+    border-radius: 1em;
+    padding: .25em;
+    color: rgba(0, 0, 0, .37)
+}
+
+.lightning-popup-remove-previous:hover {
+    background: #00000021;
+    cursor: pointer
+}
+
+.ui.segment.formatted-text {
+    box-shadow: #131313 0 0 0 .1px !important;
+    border: none !important
+}
+
+.faster-lightning-button {
+    opacity: .35;
+    position: absolute;
+    width: fit-content;
+    background: rgba(255, 255, 255, .8) !important;
+    right: 12em;
+    padding: .85em !important;
+    color: #000;
+    top: 0 !important
+}
+
+.faster-lightning-button:hover {
+    color: #000 !important
+}
+
+.slower-lightning-button {
+    opacity: .35;
+    position: absolute;
+    width: fit-content;
+    right: 5em;
+    color: #000;
+    background: rgba(255, 255, 255, .8) !important;
+    padding: .85em !important;
+    top: 0 !important
+}
+
+.slower-lightning-button:hover {
+    color: #000 !important
+}
